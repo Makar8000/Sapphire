@@ -337,8 +337,8 @@ namespace Sapphire::Network::Packets
    */
   enum ClientZoneIpcType : uint16_t
   {
-    PingHandler = 0x0273, // updated 6.31h
-    InitHandler = 0x03a8, // updated 6.31h
+    PingHandler = 0x0121, // updated 6.35
+    InitHandler = 0x038d, // updated 6.35
 
     FinishLoadingHandler = 0x032d, // updated 6.31h
 
@@ -348,15 +348,15 @@ namespace Sapphire::Network::Packets
     CFRegisterDuty = 0x01BD,     // updated 5.58h
     CFRegisterRoulette = 0x037A, // updated 5.58h
     PlayTimeHandler = 0x02B7,    // updated 5.58h
-    LogoutHandler = 0x0387,      // updated 6.31h
-    CancelLogout = 0x01e3,       // updated 6.31h
+    LogoutHandler = 0x00B8,      // updated 6.35
+    CancelLogout = 0x0206,       // updated 6.35
     CFDutyInfoHandler = 0xF078,  // updated 4.2
 
     SocialReqSendHandler = 0x00D7,  // updated 5.58h
     SocialResponseHandler = 0x023B, // updated 5.58h
     CreateCrossWorldLS = 0x035D,    // updated 5.58h
 
-    ChatHandler = 0x00f1, // Updated 6.31h
+    ChatHandler = 0x02b0,            // updated 6.35
     PartyChatHandler = 0x0065,
     PartySetLeaderHandler = 0x036C,  // updated 5.58h
     LeavePartyHandler = 0x019D,      // updated 5.58h
@@ -365,7 +365,7 @@ namespace Sapphire::Network::Packets
 
     SocialListHandler = 0x0200,              // updated 6.31
     SetSearchInfoHandler = 0x0368,           // updated 6.31h
-    ReqSearchInfoHandler = 0x03b0,           // updated 6.31h
+    ReqSearchInfoHandler = 0x013a,           // updated 6.35
     ReqExamineSearchCommentHandler = 0x00E7, // updated 5.0
 
     ReqRemovePlayerFromBlacklist = 0x00B4, // updated 5.58h
@@ -388,37 +388,35 @@ namespace Sapphire::Network::Packets
 
     ReqJoinNoviceNetwork = 0x0129, // updated 4.2
 
-    ReqCountdownInitiate = 0x03e1, // updated 6.31h
-    ReqCountdownCancel = 0x023a,   // updated 6.31h
+    ReqCountdownInitiate = 0x023e, // updated 6.35
+    ReqCountdownCancel = 0x0365,   // updated 6.35
 
-    ZoneLineHandler = 0x00ce,  // updated 6.31h
-    ClientTrigger = 0x0244,    // updated 6.31h
+    ZoneLineHandler = 0x0345, // updated 6.35
+    ClientTrigger = 0x0342,   // updated 6.35
     DiscoveryHandler = 0x038B, // updated 5.58h
 
-    PlaceFieldMarkerPreset = 0x204, // updated 6.30h
-    PlaceFieldMarker = 0x38e,       // updated 6.30h
-    SkillHandler = 0x0133,          // updated 6.31h
-    GMCommand1 = 0x0278,            // updated 6.31h
-    GMCommand2 = 0x03d8,            // updated 6.31h
+    SkillHandler = 0x0197, // updated 6.35
+    GMCommand1 = 0x00ce,    // updated 6.35
+    GMCommand2 = 0x006b,    // updated 6.35
     AoESkillHandler = 0x0152,       // updated 5.58h
 
-    UpdatePositionHandler = 0x01f7, // updated 6.31h
+    UpdatePositionHandler = 0x02c3, // updated 6.35
 
-    InventoryModifyHandler = 0x01a2, // updated 6.31h
+    InventoryModifyHandler = 0x00e4, // updated 6.35
 
     InventoryEquipRecommendedItems = 0x01C9, // updated 5.58h
 
     ReqPlaceHousingItem = 0x02D4, // updated 5.58h
     BuildPresetHandler = 0x0223,  // updated 5.58h
 
-    TalkEventHandler = 0x0205,         // updated 6.31h
+    TalkEventHandler = 0x01fb,          // updated 6.35
     EmoteEventHandler = 0x00B0,        // updated 5.58h
     WithinRangeEventHandler = 0x02B6,  // updated 5.58h
-    OutOfRangeEventHandler = 0x00b4,   // updated 6.31h
-    EnterTeriEventHandler = 0x014e,    // updated 6.31h
+    OutOfRangeEventHandler = 0x0093,   // updated 6.35
+    EnterTeriEventHandler = 0x02bf,    // updated 6.35
     ShopEventHandler = 0x0384,         // updated 5.58h
-    ReturnEventHandler = 0x0119,       // updated 6.31h
-    TradeReturnEventHandler = 0x0100,  // updated 6.31h
+    ReturnEventHandler = 0x0394,        // updated 6.35
+    TradeReturnEventHandler = 0x00d4,    // updated 6.35
     TradeReturnEventHandler2 = 0x023C, // updated 5.58h
     EventYield2Handler = 0x021D,       // updated 5.58h
     EventYield16Handler = 0x0207,      // updated 5.58h
@@ -436,7 +434,7 @@ namespace Sapphire::Network::Packets
 
     SetSharedEstateSettings = 0x00D2, // updated 5.58h
 
-    UpdatePositionInstance = 0x03bd, // Updated 6.31h
+    UpdatePositionInstance = 0x0391, // Updated 6.35
 
     PerformNoteHandler = 0x0243, // updated 5.58h
 
