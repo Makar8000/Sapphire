@@ -153,9 +153,6 @@ namespace Sapphire::Network::Packets
     AoeEffect32 = 0x2c8,            // updated 6.35
     PersistantEffect = 0x123,       // updated 6.35
 
-    PlaceFieldMarker = 0x160,      // updated 6.35
-    PlaceFieldMarkerPreset = 0x90, // updated 6.35
-
     GCAffiliation = 0x2df, // updated 6.35
 
     PlayerSpawn = 0x100, // updated 6.35
@@ -394,10 +391,12 @@ namespace Sapphire::Network::Packets
     ZoneLineHandler = 0x0345, // updated 6.35
     ClientTrigger = 0x0342,   // updated 6.35
     DiscoveryHandler = 0x038B, // updated 5.58h
-
-    SkillHandler = 0x0197, // updated 6.35
-    GMCommand1 = 0x00ce,    // updated 6.35
-    GMCommand2 = 0x006b,    // updated 6.35
+    
+    PlaceFieldMarker = 0x160,       // updated 6.35
+    PlaceFieldMarkerPreset = 0x90,  // updated 6.35
+    SkillHandler = 0x0197,          // updated 6.35
+    GMCommand1 = 0x00ce,            // updated 6.35
+    GMCommand2 = 0x006b,            // updated 6.35
     AoESkillHandler = 0x0152,       // updated 5.58h
 
     UpdatePositionHandler = 0x02c3, // updated 6.35
